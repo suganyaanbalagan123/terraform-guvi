@@ -1,5 +1,8 @@
 # terraform-guvi
 
+**Write Terraform script to create highly available infrastructure in AWS. The infra should have1 vpc, 3 subnets setup in 3 different az and 2 instances setup in 2 different subnets
+**
+
 **Creating a instance in a guvi-terraform**
 
 ![image](https://github.com/suganyaanbalagan123/terraform-guvi/assets/133192593/6f0c6488-751f-4a6c-a41b-9cc4f6ffe6b5)
