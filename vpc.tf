@@ -11,10 +11,20 @@ resource "aws_instance" "my-ec2" {
    vpc_security_group_ids = ["${aws_security_group.my-sg.id}"]
    subnet_id = aws_subnet.mysubnet-public-01.id
 }
+
 resource "aws_instance" "my-ec2-1" {
     ami = "ami-057752b3f1d6c4d6c"
     instance_type = "t2.micro"
     key_name = "key2"
+   // security_groups = ["my-sg"]
+   vpc_security_group_ids = ["${aws_security_group.my-sg.id}"]
+   subnet_id = aws_subnet.mysubnet-public-02.id
+}
+
+resource "aws_instance" "my-ec2-2" {
+    ami = "ami-00ce9e14fe7385427"
+    instance_type = "t2.micro"
+    key_name = "key3"
    // security_groups = ["my-sg"]
    vpc_security_group_ids = ["${aws_security_group.my-sg.id}"]
    subnet_id = aws_subnet.mysubnet-public-03.id
@@ -91,7 +101,7 @@ resource "aws_subnet" "mysubnet-public-03" {
     vpc_id = "${aws_vpc.my-vpc.id}"
     cidr_block = "10.1.3.0/24"
     map_public_ip_on_launch = "true"
-    availability_zone= "ap-south-1c"
+    availability_zone= "ap-south-1a"
     tags = {
       Name = "mysubnet-public-03"
     }
