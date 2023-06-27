@@ -31,17 +31,27 @@
 
 ![image](https://github.com/suganyaanbalagan123/terraform-guvi/assets/133192593/2b46e8ae-bce0-4470-8f97-d57908e25148)
 
-**My first instance-subnet 01**
+**My first instance-subnet 01 in availability zone ap-south-1a**
 
 ![image](https://github.com/suganyaanbalagan123/terraform-guvi/assets/133192593/5efbf689-6e52-4b41-8fa8-ea14a87d955a)
 
-**My second instance-subnet-03**
+![image](https://github.com/suganyaanbalagan123/terraform-guvi/assets/133192593/40955dd1-9cfc-433a-b557-f02fb7b5f14d)
+
+
+**My second instance-subnet-03 in availability zone ap-south-1a**
 
 ![image](https://github.com/suganyaanbalagan123/terraform-guvi/assets/133192593/d0b0ad80-faa6-4362-ab26-0fa52644ae58)
 
-**My third instance-subnet-02**
+![image](https://github.com/suganyaanbalagan123/terraform-guvi/assets/133192593/edd86610-4085-49dc-96dd-4b3ce227ed79)
+
+
+**My third instance-subnet-02 in availability zone ap-south-1b**
 
 ![image](https://github.com/suganyaanbalagan123/terraform-guvi/assets/133192593/504ebfaa-4e21-454e-adb5-f73f850db1d4)
+
+
+![image](https://github.com/suganyaanbalagan123/terraform-guvi/assets/133192593/c13775ed-e035-49fe-984d-4217168d29a5)
+
 
 **Three instance got craeted in my ec2**
 
